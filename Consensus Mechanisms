@@ -1,0 +1,17 @@
+Consensus mechanisms are the backbone of any blockchain network, they play a crucial role in ensuring that the network operates smoothly, securely and efficiently.
+
+Proof of Work (PoW): PoW is a consensus mechanism in which nodes(computers) compete to solve a cryptographic puzzle in order to validate, and add new transactions to the blockchain. As the compete, the first computer to solve the puzzle gets a prize.
+
+Examples: Bitcoin(BTC) and Litecoin(LTC)
+
+Pros: PoW provides strong security as it is difficult for a bad guy to control the majority of the network’s hash power and manipulate the ledger. Additionally, PoW is more decentralized. It relies on a large number of nodes to validate transactions and add blocks to the blockchain.
+
+Cons: The main disadvantage of PoW is that it drains crazy amounts of energy since it requires nodes to perform large amounts of computational work to solve those cryptographic puzzles I mentioned earlier. PoW is also vulnerable to 51% attacks, where if a malicious miner can control the majority of the network’s hash power, it can manipulate the ledger.
+
+Proof of Stake (PoS): In PoS, instead of using computational power to solve puzzles like in Proof of Work (PoW), nodes are selected to validate transactions and add blocks to the blockchain based on the amount of stake they hold in the form of tokens on a node. If you are unfamiliar with staking, as a holder of certain tokens, you are able to “stake” coins and earn money. This is the equivalent of collecting dividends in the stock market. PoS also reduces energy consumption compared to PoW, as nodes do not need to perform large amounts of computational work. The more tokens a node holds, the higher its chances of being selected to validate transactions and add blocks to the blockchain. In turn, providing that node with larger amounts of prize money.
+
+Examples: Cardano(ADA) and Ethereum(ETH)
+
+Pros: PoS is more energy-efficient, as it requires nodes to simply hold tokens in order to validate transactions and add blocks to the blockchain. Additionally, PoS provides weaker security guarantees, but is less vulnerable to 51% attacks unlike PoW.
+
+Cons: The main disadvantage of PoS is that it is less decentralized, as it relies how many tokens a node holds. The more it holds, the more likely it is to be selected to validate the next block. Because of this, it makes it vulnerable to stake grinding attacks. Stake grinding attacks occur when the villain acquires a large amount of tokens and uses them to manipulate the selection process and become a validator themselves.
